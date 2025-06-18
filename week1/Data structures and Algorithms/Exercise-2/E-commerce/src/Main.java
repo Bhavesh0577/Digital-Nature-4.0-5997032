@@ -13,7 +13,7 @@ public class Main {
 
         // Sort and Binary Search
         SearchService.sortProductsByName(products);
-        Product result2 = SearchService.binarySearch(products, "Shampoo");
+        Product result2 = SearchService.binarySearch(products, "Apple");
         System.out.println("Binary Search Result: " + result2);
     }
 }
