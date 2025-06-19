@@ -8,7 +8,7 @@ public class Main {
         };
 
         // Linear Search
-        Product result1 = SearchService.linearSearch(products, "Shampoo");
+        Product result1 = SearchService.linearSearch(products, "Shampo");
         System.out.println("Linear Search Result: " + result1);
 
         // Sort and Binary Search
